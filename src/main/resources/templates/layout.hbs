@@ -1,0 +1,143 @@
+{{#block "html"}}
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>
+            {{#block "title"}}
+                Douglas Forest Wildlife Tracking
+            {{/block}}
+        </title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+        <link rel='stylesheet' href='/public/css/main.css'/>
+
+
+{{/block}}
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Fascinate+Inline|Dosis|Kalam|Orbitron&display=swap");
+    @import "font-awesome";
+    body {
+     background-color: #597C2B;
+     background-image:linear-gradient(
+           rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+           url("./images/nature.png");
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: cover;
+           text-align:center;
+    }
+
+    footer {
+
+        text-align:center;
+        bottom:0;
+    }
+    form {
+        background-repeat:no-repeat;
+        background-size:cover;
+        margin-left:75%;
+        border-radius:3px;
+        color:white;
+        width:60%;
+        height:50%;
+    }
+    h1{
+        padding-top: 4em;
+        color:white;
+        text-align:center;
+        font-family: sans-serif;
+    }
+
+    .playback{
+        background-color: #3G1518;
+
+         }
+    nav{
+      position: absolute;
+      top: 20px;
+      right: 12%;
+      font-family: sans-serif;
+      color: #EDEEF0;
+
+    }
+    nav>ul li{
+      display: inline-block;
+      padding: 10px 30px;
+      font-size: 1.5em;
+      color: #EDEEF0;
+      cursor: pointer;
+    }
+    img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:left;
+    }
+    a {
+      position: relative;
+      text-decoration: none !important;
+      line-height: 24px;
+      color: #EDEEF0;
+    }
+
+    a :hover {
+        color: #3D1518;
+    }
+    a :visited {
+      color: #EDEEF0;
+    }
+
+    a:before, a:after {
+      content: '';
+      position: absolute;
+      transition: transform .5s ease;
+
+    }
+    .hover-1 {
+      padding-top: 10px;
+    }
+    .hover-1:before {
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 2px;
+      background: #3D1518;
+      transform: scaleX(0);
+    }
+    .hover-1:hover:before {
+      transform: scaleX(1);
+    }
+
+    .image {
+      position: absolute;
+      bottom: 0;
+      center: 0;
+      height: 50vh;
+      width: 20vh;
+    }
+</style>
+<body>
+<div class="playback text-center">
+    <nav class="nav container">
+        <ul>
+            <li><a class="hover-1" href="/">Home</a></li>
+            <li ><a href="/new-sighting" class="nav-link">New Sighting</a></li>
+            <li><a href="/sightings" class="nav-link">Sightings</a></li>
+            <li><a href="/animal/new" class="nav-link">Add Animal</a></li>
+            <li><a href="/animals" class="nav-link">Animals</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+{{#block "content"}}
+
+{{/block}}
+{{#block "footer"}}
+    <br><br><br>
+
+    </body>
+    </html>
+{{/block}}

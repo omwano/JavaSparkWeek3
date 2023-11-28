@@ -1,0 +1,23 @@
+{{#partial "content"}}
+    <style>
+        body {
+        padding-top: 5%;
+        text color: white;
+        text-align:center;
+        }
+    </style>
+    {{if sight}}
+    {{#each sight }}
+        <div class="container">
+            <div class="jumbotron" style="background-color:grey; opacity:0.5; color: #ffff; margin-bottom: 2%; padding-top: 5%;">
+                <h3>Sightings</h3>
+                <p>AnimalName: {{animal_name}}</p>
+                <p>Location : {{sight_location}}</p>
+                <p>Ranger Name : {{ranger}}</p>
+                <p>Spotted Time : {{spotted}} </p>
+            </div>
+        </div>
+    {{/each}}
+{{else}}
+{{/partial}}
+{{>layout.hbs}}

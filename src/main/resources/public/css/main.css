@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.navbar-1{
+  background-color: #B9B755;
+
+}
+a {
+  position: relative;
+  text-decoration: none;
+  line-height: 24px;
+  color: #E67224;
+  font-weight: bold;
+}
+a:before, a:after {
+  content: '';
+  position: absolute;
+  transition: transform .5s ease;
+}
+.hover-1 {
+  padding-top: 10px;
+}
+.hover-1:before {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #4976059;
+  transform: scaleX(0);
+}
+.hover-1:hover:before {
+  transform: scaleX(1);
+}
+body {
+    text-align: center;
+    background-color: #A2C654;
+       color:#fff;
+       height:100%;
+       border-radius:10px;
+       font-family: sans-serif;
+       background-image:linear-gradient(
+       rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 1.5)),
+       url("./images/nature.png");
+       background-position: background;
+       background-repeat: no-repeat;
+       background-color: #68C955;
+
+
+       }

@@ -1,0 +1,51 @@
+{{#partial "content"}}
+    <style>
+        body{
+        text-align:center;
+        }
+        form {
+        top:50%;
+        color:white;
+        }
+    </style>
+    <h2>Report Sighting</h2><hr>
+    <div class="row">
+        <div class="col col-sm-6 form-left">
+            <br/>
+            <form action="/new-sighting" method="post" >
+                <div class="form-group">
+                    <label for="exampleInputEmail1">animal Name<br>
+                    <input type="text" class="form-control" name="animal_name" aria-describedby="emailHelp" placeholder="animalName">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="sightLocation">Sighting Location<br>
+                    <select class="mdb-select md-form" name="sight_location" >
+                        <option value="" disabled selected>Choose the area</option>
+                        <option value="Area 1 ">Area 1 </option>
+                        <option value="Area 2 ">Area 2</option>
+                        <option value="Area 3">Area 3 </option>
+                    </select>
+                    </label>
+
+
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputPassword">Ranger Name<br>
+                    <input type="text" class="form-control" name="ranger"  placeholder="ranger">
+                    </label>
+                </div>
+
+
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+{{/partial}}
+
+{{>layout.hbs}}
