@@ -12,12 +12,12 @@ Setup Instructions
 - Open localhost:4567
 - To create the databases, launch postgres and psql
    and do the following:
-
-   - Create Development Database:
-   ![create_dev_database.png](src%2Fmain%2Fresources%2Fpublic%2Fimages%2Fcreate_dev_database.png)
-  
-   - Create Production Database:
-   ![create_prod_database.png](src%2Fmain%2Fresources%2Fpublic%2Fimages%2Fcreate_prod_database.png)
+- 
+ - Create Development Database:
+![create_dev_database.png](src%2Fmain%2Fresources%2Fpublic%2Fimages%2Fcreate_dev_database.png)
+   
+ - Create Production Database:
+ ![create_prod_database.png](src%2Fmain%2Fresources%2Fpublic%2Fimages%2Fcreate_prod_database.png)
   
    - Connect to the database:
    ![connect_database.png](src%2Fmain%2Fresources%2Fpublic%2Fimages%2Fconnect_database.png)   
