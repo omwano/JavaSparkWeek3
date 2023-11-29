@@ -19,9 +19,9 @@ Setup Instructions
    - Connect to the database:
   ![connect_database.png](..%2F..%2F..%2F..%2F..%2F..%2FDesktop%2Fconnect_database.png)
    - Create Tables:
-  ![table-animals.png](..%2F..%2F..%2F..%2F..%2F..%2FDesktop%2Ftable-animals.png)
-  ![table-sightings.png](..%2F..%2F..%2F..%2F..%2F..%2FDesktop%2Ftable-sightings.png)
-  ![table-rangers.png](..%2F..%2F..%2F..%2F..%2F..%2FDesktop%2Ftable-rangers.png)
+     ![alt text](http://url/to/table-animals.png)
+     ![alt text](http://url/to/table-sightings.png)
+     ![alt text](http://url/to/table-rangers.png)
 ### Technologies Used
 - Java
 - Gradle
