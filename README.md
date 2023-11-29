@@ -12,16 +12,18 @@ Setup Instructions
 - Open localhost:4567
 - To create the databases, launch postgres and psql
    and do the following:
-   - Create Development Database:
-  ![create_dev_database.png](..%2F..%2F..%2F..%2F..%2F..%2FDesktop%2Fcreate_dev_database.png)
+   - Create Development Database
+    ![create_dev_database.png](src%2Fmain%2Fresources%2Fpublic%2Fimages%2Fcreate_dev_database.png)Create Development Database:
+  
    - Create Production Database:
-  ![create_prod_database.png](..%2F..%2F..%2F..%2F..%2F..%2FDesktop%2Fcreate_prod_database.png)
+    ![create_prod_database.png](src%2Fmain%2Fresources%2Fpublic%2Fimages%2Fcreate_prod_database.png)
    - Connect to the database:
-  ![connect_database.png](..%2F..%2F..%2F..%2F..%2F..%2FDesktop%2Fconnect_database.png)
+   ![connect_database.png](src%2Fmain%2Fresources%2Fpublic%2Fimages%2Fconnect_database.png)   
+  
    - Create Tables:
-     ![alt text](http://url/to/table-animals.png)
-     ![alt text](http://url/to/table-sightings.png)
-     ![alt text](http://url/to/table-rangers.png)
+     ![table-animals.png](src%2Fmain%2Fresources%2Fpublic%2Fimages%2Ftable-animals.png)
+     ![table-rangers.png](src%2Fmain%2Fresources%2Fpublic%2Fimages%2Ftable-rangers.png)
+     ![table-sightings.png](src%2Fmain%2Fresources%2Fpublic%2Fimages%2Ftable-sightings.png)
 ### Technologies Used
 - Java
 - Gradle
